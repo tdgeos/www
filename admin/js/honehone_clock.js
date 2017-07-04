@@ -9,7 +9,7 @@ function LoadBlogParts(){
 	var sUrl = swfUrl;
 	
 	var sHtml = "";
-	sHtml += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="160" height="70" id="' + swfTitle + '" align="middle">';
+	sHtml += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpProduct.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="160" height="70" id="' + swfTitle + '" align="middle">';
 	sHtml += '<param name="allowScriptAccess" value="always" />';
 	sHtml += '<param name="movie" value="' + sUrl + '" />';
 	sHtml += '<param name="quality" value="high" />';

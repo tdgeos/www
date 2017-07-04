@@ -153,6 +153,9 @@ ul{list-style:none;}
 	background-image: url(../images/h2bg.gif);
 	background-repeat: repeat-x;
 }
+#footer a{
+	color:#000;
+}
 .content1 {width:820px;height:590px;display:block;padding:5px;overflow-y:auto;line-height:30px;}
 
 a{
@@ -178,7 +181,10 @@ a:active{
 text-decoration:none;
 color: blue;
 }
-
+td
+{
+	height:30px;
+	}
 .table_Name 
 {
 	float:left;
@@ -216,3 +222,66 @@ text-decoration: none;
 color: #0000FF; 
 } 
 .page{color:#0000FF;} 
+
+.dilog_bmit
+{
+	margin:0 15px;
+	display:inline-block;
+	width:60px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	background-image:url(../images/bmit.gif);
+	}
+.submitStyle {
+	width:60px;
+	height:20px;
+	border:0px;
+	color: blue;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	background:url(../images/bmit.gif);
+	}
+
+
+
+
+
+.uploadify-queue {
+	margin-bottom: 1em;
+}
+.uploadify-queue-item {
+	background-color: #F5F5F5;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-top: 5px;
+	max-width: 350px;
+	padding: 10px;
+}
+.uploadify-error {
+	background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+	background: url('../images/uploadify-cancel.png') 0 0 no-repeat;
+	float: right;
+	height:	16px;
+	text-indent: -9999px;
+	width: 16px;
+}
+.uploadify-queue-item.completed {
+	background-color: #E5E5E5;
+}
+.uploadify-progress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadify-progress-bar {
+	background-color: #0099FF;
+	height: 3px;
+	width: 1px;
+}

@@ -2,14 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>后台管理系统</title>
+<title>北京思行伟业数码科技有限公司后台管理系统</title>
 <link rel="shortcut icon" href="../images/ico.png" type="Styles/res/x-icon">
 </head>
 <link rel="stylesheet" href="css/index.css">
-<script src="js/jquery-1.9.0.min.js"></script>
-<script async="false" src="js/Load_Page_Top.js"></script>
 
-<body onload="openwin()">
+<body>
 	<!--[if IE]>
     <h1 style=" margin-top:20%; text-align:center">这里是一个空白页。你想要干嘛？</h1>
     <script language="javascript"> 
@@ -25,6 +23,7 @@
     clock(); 
     </script>
     <![endif]-->
+    
 	<iframe src="enter.htm" id="iframepage" name="iframepage" frameborder="0" scrolling="no" width="100%" height="100%80px"onload="iFrameHeight()" ></iframe>
 <script type="text/javascript" language="javascript">  
 
