@@ -141,5 +141,5 @@ create table t_Keyword(
 );
 
 INSERT INTO t_user (u_Name,u_Sex,u_Password,u_GroupId,u_CreateDate,u_Address,u_QQ,u_Phone,u_Mailbox,u_Number)
-VALUES ('admin', '男', 'aeb8f3de0a3bfea6595305654d51631c7a1a572a', '255', '1970-01-01 0:0:0', '北京市-北京市-海淀区', '83117850', '13409597709', 'wzxaini9@vip.qq.com','0')
+VALUES ('admin', '男', 'aeb8f3de0a3bfea6595305654d51631c7a1a572a', '255', '1970-01-01 0:0:0', '北京市-北京市-海淀区', '', '', 'wzxaini9@vip.qq.com','0')
 ;
